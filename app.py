@@ -18,7 +18,7 @@ except ImportError:
 
 # ===== CONFIG =====
 # Your Gemini API key has been added here.
-GEMINI_API_KEY = "AIzaSyDJ7uGYq8GhQ7kIYJ4CvMzlLmhVGkjrFlA"
+GEMINI_API_KEY = "replace api"
 GEMINI_MODEL = "gemini-2.5-flash-preview-05-20"
 DEFAULT_LANG = "en-US"
 
@@ -257,4 +257,5 @@ def api_exercise():
 
 
 if __name__ == "__main__":
+
     app.run(debug=True)
