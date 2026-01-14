@@ -1,80 +1,116 @@
-# **GrammarGenius: AI-Powered Language Learning Platform**
+# ✍️ GrammarGenius: AI-Powered Language Learning Platform
 
-**GrammarGenius** is an interactive, automated system designed to bridge the gap in language acquisition by providing immediate, personalized feedback. It offers real-time grammar rectification, vocabulary tips, and voice-enabled practice to help users accelerate their journey toward conversational fluency.
-
----
-
-## **🚀 Key Features**
-
-* **Real-Time Grammar Rectification:** Automatically detects and corrects grammatical errors in user input using advanced AI.
-* **Multi-Language Support:** Comprehensive tutoring for languages including **English, Spanish, French, and Urdu**.
-* **Voice-to-Voice Interaction:** Integrated **Web Speech Recognition** for voice input and **Google Cloud Text-to-Speech (TTS)** for natural-sounding audio feedback.
-* **Skill Level Estimation:** Dynamically evaluates the user's proficiency level based on the accuracy and complexity of their input.
-* **Linguistic Insights:** Provides concise explanations for corrections and pertinent vocabulary tips to enhance learning.
-* **Persistent Chat History:** Allows users to track their progress and review previous sessions.
+**GrammarGenius** is an intelligent, interactive language learning platform designed to accelerate language acquisition through **instant, personalized feedback**. The system provides real-time grammar correction, vocabulary enhancement, and voice-enabled practice to help learners achieve conversational fluency efficiently.
 
 ---
 
-## **🛠️ Technology Stack**
+## 🖼️ Application Screenshots
 
-* **Backend:** Python with **Flask** (Robust API management).
-* **AI Engine:** **Gemini AI Model** (Interfacing with `gemini-1.5-flash` for intelligent tutoring).
-* **Frontend:** JavaScript-driven interface for dynamic content rendering.
-* **Voice Services:** Google Cloud Text-to-Speech & Web Speech API.
-* **Styling:** Responsive UI design for a seamless learning experience across devices.
+<img src="https://github.com/user-attachments/assets/49b92f36-7fa3-40ef-8acc-7af8c628da72" width="900" />
+<img src="https://github.com/user-attachments/assets/d359b0de-00b9-4a6a-afda-8b03db4000cf" width="900" />
+<img src="https://github.com/user-attachments/assets/8bc1609d-a3ec-43ee-94c4-d59a3110ecc1" width="900" />
 
 ---
 
-## **📂 System Functionality**
+## 🚀 Key Features
 
-1. **Input Layer:** Users provide input via text or voice (Speech-to-Text).
-2. **Processing Layer:** The Flask backend sends data to the Gemini AI model for analysis.
-3. **Output Layer:** The system returns corrected text, explains the "why" behind the correction, and reads the response aloud using TTS.
+* **Real-Time Grammar Correction**
+  Automatically detects and corrects grammatical errors using advanced AI models.
+
+* **Multi-Language Support**
+  Supports multiple languages, including **English, Spanish, French, and Urdu**.
+
+* **Voice-to-Voice Interaction**
+  Utilizes **Web Speech Recognition** for voice input and **Google Cloud Text-to-Speech (TTS)** for natural, spoken feedback.
+
+* **Skill Level Estimation**
+  Dynamically assesses user proficiency based on linguistic complexity and accuracy.
+
+* **Linguistic Insights**
+  Provides brief explanations for corrections along with vocabulary improvement tips.
+
+* **Persistent Chat History**
+  Saves previous interactions, allowing users to track progress and review learning sessions.
 
 ---
 
-## **🔧 Installation & Setup**
+## 🛠️ Technology Stack
 
-1. **Clone the Repository:**
+### 🔹 Backend
+
+* **Python**
+* **Flask** – API handling and application logic
+
+### 🔹 AI Engine
+
+* **Gemini AI** (`gemini-1.5-flash`) for intelligent grammar correction and tutoring
+
+### 🔹 Frontend
+
+* **JavaScript** – Dynamic user interaction
+* **HTML & CSS** – Interface structure and layout
+
+### 🔹 Voice Services
+
+* **Google Cloud Text-to-Speech**
+* **Web Speech API** (Speech-to-Text)
+
+### 🔹 UI/UX
+
+* Responsive and device-friendly design
+
+---
+
+## 📂 System Workflow
+
+1. **Input Layer**
+   Users provide input via text or voice (Speech-to-Text).
+
+2. **Processing Layer**
+   Flask backend processes the input and sends it to the Gemini AI model.
+
+3. **Output Layer**
+   The system returns corrected text, explains the reasoning, and optionally reads the response aloud using TTS.
+
+---
+
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/your-username/GrammarGenius-AI-Learning.git
 cd GrammarGenius-AI-Learning
-
 ```
 
+### 2️⃣ Install dependencies
 
-2. **Install Dependencies:**
 ```bash
 pip install -r requirements.txt
-
 ```
 
+### 3️⃣ Configure environment variables
 
-3. **Environment Variables:**
-* Add your `GOOGLE_API_KEY` to the environment settings.
+* Add your **`GOOGLE_API_KEY`** to the environment variables.
 
+### 4️⃣ Run the application
 
-4. **Run the App:**
 ```bash
 python app.py
-
 ```
 
+### 5️⃣ Access the platform
 
-5. **Access the Platform:** Open `http://127.0.0.1:5000/` in your browser.
-
----
-
-## **🎓 Author**
-
-**Muhammad Arman** **Software Engineer** *Bachelor of Science in Software Engineering* *University of Sahiwal*
+Open your browser and navigate to:
+👉 **[http://127.0.0.1:5000/](http://127.0.0.1:5000/)**
 
 ---
 
-### **💡 Pro-Tip for your CV:**
+## 🎓 Author
 
-When you list this project on your CV, use this bullet point:
+**Muhammad Arman**
+Software Engineer
+Bachelor of Science in Software Engineering
+*University of Sahiwal*
 
-> * **GrammarGenius:** Developed an AI-driven language platform using **Python (Flask)** and **Gemini AI**, featuring real-time grammar correction and **Google Cloud TTS** for multi-language auditory feedback.
-> 
->
+Just say the word.
